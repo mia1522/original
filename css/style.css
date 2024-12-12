@@ -102,6 +102,11 @@ header nav .menu {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@media screen and (max-width: 900px) {
+  header nav .menu {
+    flex-direction: column;
+  }
+}
 header nav .menu a {
   color: black;
   font-size: 10px;
